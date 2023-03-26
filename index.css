@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
     right: 0;
     z-index: 1000;
     width: 100%;
-    padding-top: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .header__inner {
@@ -90,4 +90,32 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav__link:hover::after {
     opacity: 1;
+}
+
+.intro {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.intro__text {
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+
+    text-align: center;
+    font-weight: 700;
+    font-size: 90px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.intro__subtext {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Alkatra', cursive;
 }
