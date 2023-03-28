@@ -156,3 +156,64 @@ h1, h2, h3, h4, h5, h6 {
     color: #999;
     font-size: 15px;
 }
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+
+.about__item1 {
+    width: 30%;
+    height: 240px;
+    background-image: url(images/2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about__item2 {
+    width: 30%;
+    height: 240px;
+    background-image: url(images/1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about__item3 {
+    width: 30%;
+    height: 240px;
+    background-image: url(images/4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.need__to__know {
+    padding-top: 50px;
+    background-color: #fff2c4;
+    height: 800px;
+}
+
+ul {
+    margin-bottom: 30px;
+}
+
+li {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.myframe {
+    display: block;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+iframe {
+    width: 300px;
+}
+  
